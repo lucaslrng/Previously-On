@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    margin-top: 10%;
+}
+
+.cardcontainer{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.pagination__arrow {
+    cursor: pointer;
+}
+.pagination__arrow--left {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,25 @@
+.episode__btns {
+    display: flex;
+    position: relative;
+}
+.episode__btn {
+    cursor: pointer;
+}
+.episode__btns:hover .popup {
+    visibility: visible;
+}
+.card{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+.card-body{
+    overflow: scroll;
+}
+.card-header{
+    display: flex;
+}
+.bt{
+    margin-left: 70%;
+}
+

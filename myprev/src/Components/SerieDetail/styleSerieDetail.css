@@ -1,0 +1,27 @@
+.modal-dialog {
+    margin: auto;
+}
+.serie-detail__frame {
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    margin: 0 10px 20px 0px;
+}
+.serie-detail__image {
+    width: 100%;
+}
+.serie-detail__hr {
+    clear: both;
+}
+.serie-detail__bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.serie-detail__rating {
+    display: flex;
+    align-items: center;
+}
+.serie-detail__raters {
+    font-size: 15px;
+    margin: 5px 0 0 5px;
+}

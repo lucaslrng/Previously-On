@@ -1,0 +1,21 @@
+.popup {
+    display: none;
+    background-color: #3b8dd0;
+    cursor: pointer;
+    position: absolute;
+    max-width: 200px;
+    z-index: 100;
+    padding: 10px;
+}
+.popup__text {
+    display: block;
+    text-align: center;
+}
+.popup--visible {
+    display: block;
+}
+.popup__btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}

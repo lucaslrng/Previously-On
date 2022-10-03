@@ -1,0 +1,36 @@
+.card-serie {
+    width: 100%;
+}
+.card-serie--pointer {
+    cursor: pointer;
+}
+.card-serie__body {
+    /* height: 40%; */
+}
+.card-serie__img {
+    /* height: 60%; */
+}
+.card-serie__title {
+    font-weight: bolder;
+    text-align: center;
+}
+.card-serie__link {
+    text-decoration: none;
+}
+.favbtn{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: #3b8dd0;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.favbtn:hover{
+    scale: 1.2;
+}
+.favbtn img{
+    width: 25px;
+}
+.card-serie__img--unavailable {
+    max-height: 160px;
+}

@@ -1,0 +1,67 @@
+.all{
+    display: grid;
+
+}
+
+.friend{
+    text-align: center;
+    border-right: solid 2px gray;
+    border-left: solid 2px gray;
+    border-bottom: solid 2px gray;
+    border-top: none;
+    border-radius: 20px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.all button{
+    background-color: #3b8dd0;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    scale: 1;
+    font-weight: 600;
+}
+.all button:hover{
+    scale: 1.2;
+}
+.bot{
+    display: grid;
+    grid-template: "a b" 4fr;
+    text-align: center;
+    margin-top: 100px;
+}
+.friendlist{
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.friendlist button{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.blocklist{
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spin {
+    text-align: center;
+    margin-top: 20px;
+}
+.listdiv{
+    margin-bottom: 20px;
+    border: solid 2px gray;
+    border-radius: 30px;
+    width: 300px;
+    margin-top: 20px;
+}
+.name{
+    margin-top: 10px;
+}
+.friendbtn{
+    margin-bottom: 10px;
+}

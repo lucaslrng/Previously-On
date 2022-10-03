@@ -1,0 +1,8 @@
+/* .tooltip__text, .tooltip-arrow, .blue-tooltip + .tooltip > .tooltip-inner {background-color: #f00;} */
+.tooltip-inner {
+    background-color: #3b8dd0;
+    cursor: pointer;
+}
+.bs-tooltip-end .tooltip-arrow::before {
+    border-right-color: #3b8dd0;
+}
